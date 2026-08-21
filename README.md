@@ -1,11 +1,11 @@
-# Tungsten-CC 🚀
+# Tungsten-CC 
 **High-Performance SSA-based C Compiler Targeting AMD64**
 
 Tungsten-CC is a robust, bare-metal C compiler built from the ground up to explore advanced modern compilation techniques. It features a custom Intermediate Representation (IR), rigorous Static Single Assignment (SSA) optimizations, and an advanced Chaitin-Briggs Graph Coloring register allocator targeting the AMD64 architecture.
 
 ---
 
-## 🧠 Compiler Architecture
+##  Compiler Architecture
 
 Tungsten-CC follows a strict multi-pass architecture, ensuring separation of concerns between frontend parsing, middle-end optimizations, and backend code generation.
 
@@ -42,7 +42,7 @@ Hardening the executable and outputting native machine code.
 
 ---
 
-## 🛡️ Differential Testing Framework
+##  Differential Testing Framework
 
 Compiler correctness is non-negotiable. Tungsten-CC includes a custom Python-based fuzzing harness designed to brutally stress-test the pipeline against industry standards.
 
@@ -51,7 +51,7 @@ Compiler correctness is non-negotiable. Tungsten-CC includes a custom Python-bas
 
 ---
 
-## 🛠️ Development & Building
+##  Development & Building
 
 The compiler is written purely in C. No external dependencies like LLVM or Bison/Flex were used—this is a 100% bespoke pipeline.
 
